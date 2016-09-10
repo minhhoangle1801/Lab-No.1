@@ -16,7 +16,7 @@ public class RetirementPlan {
 	System.out.println("Anual return after work: ");
 	dAnualReturnAfterWork = scan.nextDouble();
 	while (dAnualReturnAfterWork < 0 || dAnualReturnAfterWork > 2){
-		System.out.println("Please enter number in the range of 0 and 2");
+		System.out.println("Please enter number in the range of 0 and 2(%)");
 		dAnualReturnAfterWork = scan.nextDouble();
 	}
 	System.out.println("Number of Year to Retire: ");
@@ -24,7 +24,7 @@ public class RetirementPlan {
 	System.out.println("Anual return before work: ");
 	dAnualReturnBeforeWork = scan.nextDouble();
 	while (dAnualReturnBeforeWork < 0 || dAnualReturnBeforeWork > 20){
-		System.out.println("Please enter number in the range of 0 and 20");
+		System.out.println("Please enter number in the range of 0 and 20(%)");
 		dAnualReturnBeforeWork = scan.nextDouble();
 	}
 	System.out.println("Number of year that you have to work: ");
@@ -37,7 +37,6 @@ public class RetirementPlan {
 	System.out.println("Save Each Month: $" + dSaveEachMonth);
 	
 	}
-
 	private static void While(boolean b) {
 	
 		
